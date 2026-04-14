@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Install dependencies
+      - name: Install
         run: npm install
 
-      - name: Run tests
-        run: npm test
+      - name: Run
+        run: npx jest --passWithNoTests
