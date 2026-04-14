@@ -17,9 +17,8 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Install dependencies
+     - name: Install dependencies
         run: npm install
 
       - name: Run tests
-        # Usar o comando do npm é mais garantido que chamar o jest direto
         run: npm test
