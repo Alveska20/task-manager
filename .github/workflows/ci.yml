@@ -4,10 +4,6 @@ on:
   push:
     branches: ["main"]
 
-env:
-  # Isso remove o aviso de depreciação forçando o Node 24
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -20,10 +16,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "24"
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run tests
-        # O --if-present garante que o erro 127 não aconteça se o script não existir
-        run: npm test --if-present
+        run: npx jest --passWithNoTests
