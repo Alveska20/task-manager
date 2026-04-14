@@ -13,3 +13,5 @@
 ## Documentação do projeto atualizada
 
 ## Adicionada funcionalidade de prioridade nas tarefas
+
+## Ajustes finais e melhorias no projeto
