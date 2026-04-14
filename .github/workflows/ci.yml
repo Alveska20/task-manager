@@ -4,9 +4,6 @@ on:
   push:
     branches: ["main"]
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -24,4 +21,5 @@ jobs:
         run: npm install
 
       - name: Run tests
+        # Usar o comando do npm é mais garantido que chamar o jest direto
         run: npm test
