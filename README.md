@@ -7,3 +7,5 @@
 ## Rota de listagem de tarefas implementada
 
 ## Testes automatizados com Jest adicionados
+
+## Integração contínua com GitHub Actions configurada
