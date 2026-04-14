@@ -5,3 +5,5 @@
 ## Rota de criação de tarefas implementada
 
 ## Rota de listagem de tarefas implementada
+
+## Testes automatizados com Jest adicionados
