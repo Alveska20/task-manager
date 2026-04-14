@@ -1,3 +1,5 @@
+[![CI](https://github.com/Alveska20/task-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/Alveska20/task-manager/actions/workflows/ci.yml)
+
 ## Estrutura inicial do projeto criada
 
 ## Servidor Node.js implementado
