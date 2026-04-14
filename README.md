@@ -11,3 +11,5 @@
 ## Integração contínua com GitHub Actions configurada
 
 ## Documentação do projeto atualizada
+
+## Adicionada funcionalidade de prioridade nas tarefas
