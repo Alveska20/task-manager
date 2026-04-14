@@ -9,3 +9,5 @@
 ## Testes automatizados com Jest adicionados
 
 ## Integração contínua com GitHub Actions configurada
+
+## Documentação do projeto atualizada
